@@ -1,0 +1,36 @@
+body {
+  background-color: #f4f6f9;
+}
+
+.card {
+  border-radius: 15px;
+}
+
+.card-header {
+  border-radius: 15px 15px 0 0 !important;
+}
+
+.list-group-item {
+  transition: 0.3s;
+}
+
+.list-group-item:hover {
+  background-color: #f8f9fa !important;
+}
+.bg-primary{
+    background-color: rgb(176, 22, 241) !important;
+}
+.card-body{
+    background-color: rgb(196, 127, 228) !important;
+}
+.list-group-item{
+    background-color: rgb(192, 163, 219) !important;
+}
+.form-control{
+    background-color: rgb(192, 163, 219) !important;
+
+}
+.form-control:hover{
+    background-color:rgb(252, 249, 255) !important;
+    
+}
