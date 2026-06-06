@@ -1,0 +1,22 @@
+body {
+  margin: 0;
+
+  background: linear-gradient(135deg, #00a8e8, #6f42c1, #ff4d6d);
+
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#root {
+  min-height: 100vh;
+}
+
+.app-layout {
+  min-height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.contenido {
+  flex: 1;
+}

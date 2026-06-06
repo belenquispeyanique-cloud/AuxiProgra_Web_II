@@ -1,0 +1,101 @@
+.home-container {
+  margin-top: 30px;
+}
+
+.titulo-mundial {
+  font-size: 3rem;
+  font-weight: 900;
+  letter-spacing: 2px;
+
+  background: linear-gradient(90deg, #00e5ff, #ffea00, #ff1744, #00ff6a);
+
+  background-size: 300% 300%;
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+  animation: onda 2s ease-in-out infinite, colores 4s linear infinite;
+
+  transition: text-shadow 0.7s;
+}
+
+@keyframes onda {
+  0% {
+    transform: translateY(0px);
+  }
+
+  25% {
+    transform: translateY(-8px);
+  }
+
+  50% {
+    transform: translateY(0px);
+  }
+
+  75% {
+    transform: translateY(8px);
+  }
+
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+@keyframes colores {
+  0% {
+    background-position: 0% 50%;
+  }
+
+  100% {
+    background-position: 100% 50%;
+  }
+}
+
+.card {
+  border: none;
+  border-radius: 20px;
+  overflow: hidden;
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-10px) scale(1.02);
+}
+
+.card img {
+  height: 220px;
+  object-fit: cover;
+}
+
+.card-album {
+  background: linear-gradient(135deg, #0066ff, #00d4ff);
+
+  color: white;
+}
+
+.card-stats {
+  background: linear-gradient(135deg, #00b74a, #4cff7b);
+
+  color: white;
+}
+
+.card-trophy {
+  background: linear-gradient(135deg, #ff8c00, #ffd54f);
+
+  color: white;
+}
+
+.card h5 {
+  font-weight: bold;
+}
+
+.card .btn {
+  border-radius: 12px;
+  font-weight: bold;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.card-body {
+  padding: 1.5rem;
+}
